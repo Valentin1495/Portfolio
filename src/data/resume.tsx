@@ -2,60 +2,63 @@ import { Icons } from '@/components/icons';
 import { HomeIcon, NotebookIcon } from 'lucide-react';
 
 export const DATA = {
-  name: 'Asher',
+  name: 'Eunho Kim',
   initials: 'EK',
   url: 'https://github.com/Valentin1495',
   location: 'San Francisco, CA',
   locationLink: 'https://www.google.com/maps/place/sanfrancisco',
-  description:
-    'React, TypeScript, Next.js를 활용해 웹 애플리케이션을 개발하는 소프트웨어 엔지니어입니다 🥰',
+  description: '웹 앱 개발하는 소프트웨어 엔지니어 은호입니다 🥰',
   summary:
     'At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).',
   avatarUrl: '/blue-sky.jpg',
   skills: [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'TypeScript',
     'React',
     'Next.js',
-    'Typescript',
-    'Node.js',
-    'Python',
-    'Go',
-    'Postgres',
-    'Docker',
-    'Kubernetes',
-    'Java',
-    'C++',
+    'Tailwind CSS',
+    'Prisma',
+    'MongoDB',
+    'Socket.IO',
+    // 'Node.js',
+    // 'Python',
+    // 'Go',
+    // 'Postgres',
+    // 'Docker',
+    // 'Kubernetes',
+    // 'Java',
+    // 'C++',
   ],
   navbar: [
     { href: '/', icon: HomeIcon, label: 'Home' },
     {
-      href: 'https://asherwrites.vercel.app',
+      href: 'https://eunhowrites.vercel.app',
       icon: NotebookIcon,
       label: 'Blog',
     },
   ],
   contact: {
     email: 'valentink1495@gmail.com',
-    tel: '010-4635-0031',
+    tel: '',
     social: {
       GitHub: {
         name: 'GitHub',
         url: 'https://github.com/Valentin1495',
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: 'LinkedIn',
         url: 'https://www.linkedin.com/in/eun-ho-kim-190424317/',
         icon: Icons.linkedin,
-
         navbar: true,
       },
       X: {
         name: 'X',
-        url: 'https://x.com/Asher_XIV',
+        url: 'https://x.com/Eunho_XIV',
         icon: Icons.x,
-
         navbar: true,
       },
       Youtube: {
@@ -64,11 +67,10 @@ export const DATA = {
         icon: Icons.youtube,
         navbar: false,
       },
-      email: {
+      'Send Email': {
         name: 'Send Email',
         url: 'mailto:valentink1495@gmail.com',
         icon: Icons.email,
-
         navbar: true,
       },
     },
@@ -150,45 +152,45 @@ export const DATA = {
   ],
   education: [
     {
-      school: 'Buildspace',
-      href: 'https://buildspace.so',
-      degree: 's3, s4, sf1, s5',
-      logoUrl: '/buildspace.jpg',
-      start: '2023',
-      end: '2024',
+      school: 'Chung-Ang University',
+      href: 'http://www.cau.ac.kr',
+      degree: '인문대학 유럽문화학부 러시아어문학전공',
+      logoUrl: '/cau.jpeg',
+      start: '2014',
+      end: '2023',
     },
-    {
-      school: 'University of Waterloo',
-      href: 'https://uwaterloo.ca',
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: '/waterloo.png',
-      start: '2016',
-      end: '2021',
-    },
-    {
-      school: 'Wilfrid Laurier University',
-      href: 'https://wlu.ca',
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: '/laurier.png',
-      start: '2016',
-      end: '2021',
-    },
-    {
-      school: 'International Baccalaureate',
-      href: 'https://ibo.org',
-      degree: 'IB Diploma',
-      logoUrl: '/ib.png',
-      start: '2012',
-      end: '2016',
-    },
+    // {
+    //   school: 'University of Waterloo',
+    //   href: 'https://uwaterloo.ca',
+    //   degree: "Bachelor's Degree of Computer Science (BCS)",
+    //   logoUrl: '/waterloo.png',
+    //   start: '2016',
+    //   end: '2021',
+    // },
+    // {
+    //   school: 'Wilfrid Laurier University',
+    //   href: 'https://wlu.ca',
+    //   degree: "Bachelor's Degree of Business Administration (BBA)",
+    //   logoUrl: '/laurier.png',
+    //   start: '2016',
+    //   end: '2021',
+    // },
+    // {
+    //   school: 'International Baccalaureate',
+    //   href: 'https://ibo.org',
+    //   degree: 'IB Diploma',
+    //   logoUrl: '/ib.png',
+    //   start: '2012',
+    //   end: '2016',
+    // },
   ],
   projects: [
     {
       title: 'Gemini',
-      href: 'https://geminibyasher.vercel.app',
-      dates: '2024.01.10 ~ 2024.01.27 (3주)',
+      href: 'https://geminibyeunho.vercel.app',
+      dates: 'Jan 2024 (3주)',
       active: true,
-      description: 'AI 기반 챗봇 및 이미지 생성 애플리케이션',
+      description: 'AI 챗봇',
       technologies: [
         'React',
         'Typescript',
@@ -199,7 +201,7 @@ export const DATA = {
       links: [
         {
           type: 'Website',
-          href: 'https://geminibyasher.vercel.app',
+          href: 'https://geminibyeunho.vercel.app',
           icon: <Icons.globe className='size-3' />,
         },
         {
@@ -215,7 +217,7 @@ export const DATA = {
     {
       title: 'PostPlanet',
       href: 'https://postplanet.vercel.app',
-      dates: '2024.03.27 ~ 2024.04.20 (4주)',
+      dates: 'Mar 2024 - Apr 2024 (4주)',
       active: true,
       description: '소셜 미디어 플랫폼',
       technologies: [
@@ -248,7 +250,7 @@ export const DATA = {
     {
       title: 'WhisperWave',
       href: 'https://whisperwave-production.up.railway.app',
-      dates: '2024.05.01 ~ 2024.06.11 (6주)',
+      dates: 'May 2024 - Jun 2024 (6주)',
       active: true,
       description: '실시간 그룹 챗 애플리케이션',
       technologies: [
