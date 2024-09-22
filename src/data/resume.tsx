@@ -152,7 +152,7 @@ export const DATA = {
   ],
   education: [
     {
-      school: 'Chung-Ang University',
+      school: '중앙대학교',
       href: 'http://www.cau.ac.kr',
       degree: '인문대학 유럽문화학부 러시아어문학전공',
       logoUrl: '/cau.jpeg',
