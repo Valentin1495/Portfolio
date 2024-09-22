@@ -51,7 +51,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: 'LinkedIn',
-        url: 'https://www.linkedin.com/in/eun-ho-kim-190424317/',
+        url: 'https://www.linkedin.com/in/eunho-kim-190424317',
         icon: Icons.linkedin,
         navbar: true,
       },
