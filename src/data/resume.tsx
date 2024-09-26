@@ -215,6 +215,29 @@ export const DATA = {
         'https://github.com/user-attachments/assets/bf6360bf-c4c5-4f15-b04e-a963694139b9',
     },
     {
+      title: 'Brainwave',
+      href: 'https://brainwavebyeunho.vercel.app',
+      dates: 'Jul 2024 - Aug 2024 (2주)',
+      active: true,
+      description: 'AI 서비스 소개 페이지',
+      technologies: ['React', 'Vite', 'Tailwind CSS'],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://brainwavebyeunho.vercel.app',
+          icon: <Icons.globe className='size-3' />,
+        },
+        {
+          type: 'Source',
+          href: 'https://github.com/Valentin1495/Brainwave',
+          icon: <Icons.github className='size-3' />,
+        },
+      ],
+      image: '',
+      video:
+        'https://github.com/user-attachments/assets/313ecea9-c136-483d-920e-1de7e9671d1c',
+    },
+    {
       title: 'PostPlanet',
       href: 'https://postplanet.vercel.app',
       dates: 'Mar 2024 - Apr 2024 (4주)',
@@ -246,6 +269,29 @@ export const DATA = {
       image: '',
       video:
         'https://github.com/Valentin1495/PostPlanet/assets/69514169/64bf240c-cc13-493c-b8c3-63f7876ba659',
+    },
+    {
+      title: 'Nike',
+      href: 'https://nikebyeunho.vercel.app',
+      dates: 'Aug 2024 - Aug 2024 (1주)',
+      active: true,
+      description: 'Nike 소개 페이지',
+      technologies: ['React', 'Vite', 'Tailwind CSS'],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://nikebyeunho.vercel.app',
+          icon: <Icons.globe className='size-3' />,
+        },
+        {
+          type: 'Source',
+          href: 'https://github.com/Valentin1495/Nike',
+          icon: <Icons.github className='size-3' />,
+        },
+      ],
+      image: '',
+      video:
+        'https://github.com/user-attachments/assets/74c1ca9e-6bb0-431f-a3a9-4c43db484045',
     },
     {
       title: 'WhisperWave',
@@ -282,6 +328,29 @@ export const DATA = {
       image: '',
       video:
         'https://github.com/user-attachments/assets/db6fd15a-94a0-4978-a516-e2fd257ca243',
+    },
+    {
+      title: 'Camptraveler',
+      href: 'https://camptravelerbyeunho.vercel.app',
+      dates: 'Sep 2024 - Sep 2024 (1주)',
+      active: true,
+      description: '여행 서비스 소개 페이지',
+      technologies: ['React', 'Typescript', 'Next.js', 'Tailwind CSS'],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://camptravelerbyeunho.vercel.app',
+          icon: <Icons.globe className='size-3' />,
+        },
+        {
+          type: 'Source',
+          href: 'https://github.com/Valentin1495/Camptraveler',
+          icon: <Icons.github className='size-3' />,
+        },
+      ],
+      image: '',
+      video:
+        'https://github.com/user-attachments/assets/cd2ac917-8004-4b74-a221-8e63f30250e3',
     },
   ],
   hackathons: [
