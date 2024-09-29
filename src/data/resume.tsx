@@ -272,7 +272,7 @@ export const DATA = {
     },
     {
       title: 'WhisperWave',
-      href: 'https://whisperwave-production.up.railway.app',
+      href: 'https://whisperwave-a77t.onrender.com',
       dates: 'May 2024 - Jun 2024 (6주)',
       active: true,
       description: '실시간 그룹 챗 애플리케이션',
@@ -293,7 +293,7 @@ export const DATA = {
       links: [
         {
           type: 'Website',
-          href: 'https://whisperwave-production.up.railway.app',
+          href: 'https://whisperwave-a77t.onrender.com',
           icon: <Icons.globe className='size-3' />,
         },
         {
