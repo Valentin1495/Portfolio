@@ -22,6 +22,7 @@ export const DATA = {
     'Prisma',
     'MongoDB',
     'Socket.IO',
+    'Framer Motion',
     // 'Node.js',
     // 'Python',
     // 'Go',
@@ -210,9 +211,11 @@ export const DATA = {
           icon: <Icons.github className='size-3' />,
         },
       ],
-      image: '',
+      image:
+        'https://github.com/user-attachments/assets/e19658f3-fa8e-4048-aab6-0eb00f9409a7',
       video:
-        'https://github.com/user-attachments/assets/bf6360bf-c4c5-4f15-b04e-a963694139b9',
+        // 'https://github.com/user-attachments/assets/bf6360bf-c4c5-4f15-b04e-a963694139b9'
+        '',
     },
     // {
     //   title: 'Brainwave',
@@ -266,16 +269,18 @@ export const DATA = {
           icon: <Icons.github className='size-3' />,
         },
       ],
-      image: '',
+      image:
+        'https://github.com/user-attachments/assets/2810b8b0-b913-42bf-ae38-e5571bf1dd5a',
       video:
-        'https://github.com/Valentin1495/PostPlanet/assets/69514169/64bf240c-cc13-493c-b8c3-63f7876ba659',
+        // 'https://github.com/Valentin1495/PostPlanet/assets/69514169/64bf240c-cc13-493c-b8c3-63f7876ba659'
+        '',
     },
     {
       title: 'WhisperWave',
       href: 'https://whisperwave-a77t.onrender.com',
       dates: 'May 2024 - Jun 2024 (6주)',
       active: true,
-      description: '실시간 그룹 챗 애플리케이션',
+      description: '그룹 챗 애플리케이션',
       technologies: [
         'React',
         'Typescript',
@@ -302,16 +307,18 @@ export const DATA = {
           icon: <Icons.github className='size-3' />,
         },
       ],
-      image: '',
+      image:
+        'https://github.com/user-attachments/assets/d7be1b8a-c603-48da-ad1e-32e8a85bef4f',
       video:
-        'https://github.com/user-attachments/assets/db6fd15a-94a0-4978-a516-e2fd257ca243',
+        // 'https://github.com/user-attachments/assets/db6fd15a-94a0-4978-a516-e2fd257ca243'
+        '',
     },
     {
       title: 'Nike',
       href: 'https://nikebyeunho.vercel.app',
-      dates: 'Aug 2024 - Aug 2024 (1주)',
+      dates: 'Aug 2024 (1주)',
       active: true,
-      description: 'Nike landing page',
+      description: 'Nike 랜딩 페이지',
       technologies: ['React', 'Vite', 'Tailwind CSS'],
       links: [
         {
@@ -325,33 +332,37 @@ export const DATA = {
           icon: <Icons.github className='size-3' />,
         },
       ],
-      image: '',
+      image:
+        'https://github.com/user-attachments/assets/87a7fae3-e713-4a0d-adb9-ee898f3a5103',
       video:
-        'https://github.com/user-attachments/assets/74c1ca9e-6bb0-431f-a3a9-4c43db484045',
+        // 'https://github.com/user-attachments/assets/74c1ca9e-6bb0-431f-a3a9-4c43db484045',
+        '',
     },
-    // {
-    //   title: 'Camptraveler',
-    //   href: 'https://camptravelerbyeunho.vercel.app',
-    //   dates: 'Sep 2024 - Sep 2024 (1주)',
-    //   active: true,
-    //   description: '여행 서비스 소개 페이지',
-    //   technologies: ['React', 'Typescript', 'Next.js', 'Tailwind CSS'],
-    //   links: [
-    //     {
-    //       type: 'Website',
-    //       href: 'https://camptravelerbyeunho.vercel.app',
-    //       icon: <Icons.globe className='size-3' />,
-    //     },
-    //     {
-    //       type: 'Source',
-    //       href: 'https://github.com/Valentin1495/Camptraveler',
-    //       icon: <Icons.github className='size-3' />,
-    //     },
-    //   ],
-    //   image: '',
-    //   video:
-    //     'https://github.com/user-attachments/assets/cd2ac917-8004-4b74-a221-8e63f30250e3',
-    // },
+    {
+      title: 'Metaverse',
+      href: 'https://metaversebyeunho.vercel.app',
+      dates: 'Sep 2024 (1주)',
+      active: true,
+      description: '애니메이션 랜딩 페이지',
+      technologies: ['React', 'Next.js', 'Tailwind CSS', 'Framer Motion'],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://metaversebyeunho.vercel.app',
+          icon: <Icons.globe className='size-3' />,
+        },
+        {
+          type: 'Source',
+          href: 'https://github.com/Valentin1495/Metaverse',
+          icon: <Icons.github className='size-3' />,
+        },
+      ],
+      image:
+        'https://github.com/user-attachments/assets/6cab1eb8-ee78-4b32-bd6f-3514cca010b7',
+      video:
+        // 'https://github.com/user-attachments/assets/74c1ca9e-6bb0-431f-a3a9-4c43db484045',
+        '',
+    },
   ],
   hackathons: [
     {
