@@ -27,11 +27,6 @@
 
       var map = new naver.maps.Map('map', mapOptions);
 
-      var marker = new naver.maps.Marker({
-        position: defaultPosition,
-        map: map,
-      });
-
       function postLocationToApp(position) {
         if (!window.ReactNativeWebView || !window.ReactNativeWebView.postMessage) {
           return;
@@ -46,10 +41,9 @@
         );
       }
 
-      function moveMarker(latitude, longitude, shouldNotify) {
+      function moveMap(latitude, longitude, shouldNotify) {
         var nextPosition = new naver.maps.LatLng(latitude, longitude);
 
-        marker.setPosition(nextPosition);
         map.setCenter(nextPosition);
 
         if (shouldNotify) {
@@ -58,11 +52,11 @@
       }
 
       window.setSelectedLocationFromNative = function (latitude, longitude) {
-        moveMarker(latitude, longitude, false);
+        moveMap(latitude, longitude, false);
       };
 
       naver.maps.Event.addListener(map, 'click', function (event) {
-        moveMarker(event.coord.lat(), event.coord.lng(), true);
+        moveMap(event.coord.lat(), event.coord.lng(), true);
       });
     </script>
   </body>
